@@ -34,13 +34,13 @@ Assim todas as bibliotecas e frameworks usadas(os) no projeto estarão no seu am
 <h2>Documentação da API</h2>
 
 <h3>Endpoints:</h3>
-`/client/{id_cliente}` 
+`/client/{id_cliente}`
 retorna um cliente específico - Método `GET`<br>
-`/client` 
+`/client`
 retorna todos os clientes - Método `GET`<br>
-`/books` 
+`/books`
 retorna todos os livros - Método `GET`<br>
-` /client/{id_cliente}/books `  retorna todos os livros reservados pelo cliente - Método `GET`<br><br>
+`/client/{id_cliente}/books`  retorna todos os livros reservados pelo cliente - Método `GET`<br><br>
 `/books/{id_livro}/reserve`  Faz a reserva do livro especificado, necessitando de um body `JSON` com o `id_client` - Método `POST`<br>
 exemplo: 
 `{"id_client": {id do cliente}}`
