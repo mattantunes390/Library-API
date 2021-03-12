@@ -11,7 +11,7 @@ O projeto conta com um arquivo chamado `banco.py` que é responável pela conex�
 O restante das váriaveis do banco podem serem mantidas. <br>
 Estarei anexando ao projeto também os scripts sql, para a criação do banco e das tabelas.
 <br>
-<h3>Criação de Ambientes Virtuais</h3>
+<h3>Criação de Ambientes Virtuais:</h3>
 Navegue até o diretório do projeto e execute os comandos no terminal: <br>
 <br>
 Vamos instalar o pyenv para evitar que haja problemas de versionamento do python:<br>
@@ -26,7 +26,7 @@ Após isso executaremos o comando para a criação da venv:<br>
 Ativando a venv:<br>
 `$ source myvenv/bin/activate`
 
-<h2>Instalando o `requeriments.txt`</h2>
+<h2>Instalando o `requeriments.txt`:</h2>
 Após ativar seu Ambiente virtual basta rodar o seguinte comando dentro do diretório:<br>
 `pip install -r requirements.txt`<br><br>
 Assim todas as bibliotecas e frameworks usadas(os) no projeto estarão no seu ambiente virtual.
