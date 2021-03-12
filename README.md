@@ -54,9 +54,11 @@ exemplo de lista:<br>
    {"title": "Assassins Creed - Renascença",
    "autor": "Anton Gill",
    "year_published": 2009,
-   "price_location": 20}]`<br><br>
+   "price_location": 20}]`
+   <br><br>
 `/client` - insere clientes no banco, recebendo em JSON uma lista com nome dos clientes - Método `POST`<br>
 exemplo:<br>
+
 `[{"name": "Matheus"},{"name": "João"},{"name": "Nathália"},{"name": "Igor"},]`<br><br>
 
    
