@@ -26,7 +26,7 @@ Após isso executaremos o comando para a criação da venv:<br>
 Ativando a venv:<br>
 `$ source myvenv/bin/activate`
 
-<h3>Instalando o `requeriments.txt`</h3>
+<h2>Instalando o `requeriments.txt`</h2>
 Após ativar seu Ambiente virtual basta rodar o seguinte comando dentro do diretório:<br>
 `pip install -r requirements.txt`<br><br>
 Assim todas as bibliotecas e frameworks usadas(os) no projeto estarão no seu ambiente virtual.
