@@ -38,11 +38,16 @@ Assim todas as bibliotecas e frameworks usadas(os) no projeto estarão no seu am
 `/client` - retorna todos os clientes - Método `GET`<br>
 `/books` - retorna todos os livros - Método `GET`<br>
 `/client/{id_cliente}/books` - retorna todos os livros reservados pelo cliente - Método `GET`<br><br>
-`/books/{id_livro}/reserve'` - Faz a reserva do livro especificado, necessitando de um body `JSON` com o `id_client` - Método `POST`<br>
-exemplo: `{"id_client": {id do cliente}}`<br><br>
-`/reserve/{id da reserva}`  deleta uma reserva feita - Método `DELETE`<br><br>
-`/books` - insere livros no banco, passando uma lista com os seguintes campos: - Método `POST`<br>
+`/books/{id_livro}/reserve` - Faz a reserva do livro especificado, necessitando de um body `JSON` com o `id_client` - Método `POST`<br>
+exemplo: 
+`{"id_client": {id do cliente}}`
+<br><br>
+`/reserve/{id da reserva}` 
+- deleta uma reserva feita - Método `DELETE`<br><br>
+`/books` 
+- insere livros no banco, passando uma lista com os seguintes campos: - Método `POST`<br>
 exemplo de lista:<br>
+
 `[{"title": "O Senhor dos Anéis",
    "autor": "J. R. R. Tolkien",
    "year_published": 1954,
@@ -56,7 +61,8 @@ exemplo de lista:<br>
    "year_published": 2009,
    "price_location": 20}]`
    <br><br>
-`/client` - insere clientes no banco, recebendo em JSON uma lista com nome dos clientes - Método `POST`<br>
+`/client` 
+- insere clientes no banco, recebendo em JSON uma lista com nome dos clientes - Método `POST`<br>
 exemplo:<br>
 
 `[{"name": "Matheus"},{"name": "João"},{"name": "Nathália"},{"name": "Igor"},]`<br><br>
