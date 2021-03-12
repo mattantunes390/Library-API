@@ -40,7 +40,7 @@ retorna um cliente específico - Método `GET`<br>
 retorna todos os clientes - Método `GET`<br>
 `/books` 
 retorna todos os livros - Método `GET`<br>
-`/client/{id_cliente}/books`  retorna todos os livros reservados pelo cliente - Método `GET`<br><br>
+` /client/{id_cliente}/books `  retorna todos os livros reservados pelo cliente - Método `GET`<br><br>
 `/books/{id_livro}/reserve`  Faz a reserva do livro especificado, necessitando de um body `JSON` com o `id_client` - Método `POST`<br>
 exemplo: 
 `{"id_client": {id do cliente}}`
