@@ -1,6 +1,6 @@
-# Library-api
+<h1> Library-api</h1>
 
-###Conexão com o banco MySQL:
+<h3>Conexão com o banco MySQL:</h3>
 O projeto conta com um arquivo chamado `banco.py` que é responável pela conexão com o banco de dados, nele temos alguns parâmetros que devem serem preenchidos:
 
 `host` = {host de acesso ao banco} <br>
@@ -26,14 +26,14 @@ Após isso executaremos o comando para a criação da venv:<br>
 Ativando a venv:<br>
 `$ source myvenv/bin/activate`
 
-###Instalando o `requeriments.txt`
+<h3>Instalando o `requeriments.txt`</h3>
 Após ativar seu Ambiente virtual basta rodar o seguinte comando dentro do diretório:<br>
 `pip install -r requirements.txt`<br><br>
 Assim todas as bibliotecas e frameworks usadas(os) no projeto estarão no seu ambiente virtual.
 
-##Documentação da API
+<h2>Documentação da API</h2>
 
-####Endpoints:
+<h3>Endpoints:</h3>
 `/client/{id_cliente}` - retorna um cliente específico - Método `GET`<br>
 `/client` - retorna todos os clientes - Método `GET`<br>
 `/books` - retorna todos os livros - Método `GET`<br>
